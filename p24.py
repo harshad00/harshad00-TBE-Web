@@ -14,7 +14,7 @@ def connect_to_db():
     except Error as e:
         print("Error while connecting to MySQL:", e)
         return None
-
+    # TODO: ths is my function
 def display_records():
     """Fetch and display all records."""
     try:
